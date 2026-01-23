@@ -1,0 +1,22 @@
+artifact_path: file:D:\VS Code Projects\Bike-rental-count-prediction\mlruns/924694007789281361/models/m-f95874cc868b4f1daadefcbd248c1086/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-f95874cc868b4f1daadefcbd248c1086
+model_size_bytes: 285200
+model_uuid: m-f95874cc868b4f1daadefcbd248c1086
+prompts: null
+run_id: 965e8424d19f4a5fb9c238180484cdc4
+utc_time_created: '2026-01-22 23:45:55.677253'

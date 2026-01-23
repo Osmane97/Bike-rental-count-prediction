@@ -1,0 +1,6 @@
+artifact_location: file:D:\VS Code Projects\Bike-rental-count-prediction\mlruns/356193643736526168
+creation_time: 1769125538094
+experiment_id: '356193643736526168'
+last_update_time: 1769125538094
+lifecycle_stage: active
+name: xgboost_optuna_day
