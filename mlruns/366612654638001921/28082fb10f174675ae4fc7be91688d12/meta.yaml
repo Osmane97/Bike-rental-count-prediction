@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/VS%20Code%20Projects/Bike-rental-count-prediction/mlruns/366612654638001921/28082fb10f174675ae4fc7be91688d12/artifacts
+end_time: 1774548595317
+entry_point_name: ''
+experiment_id: '366612654638001921'
+lifecycle_stage: active
+run_id: 28082fb10f174675ae4fc7be91688d12
+run_name: trial_hour
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774548595149
+status: 3
+tags: []
+user_id: PC

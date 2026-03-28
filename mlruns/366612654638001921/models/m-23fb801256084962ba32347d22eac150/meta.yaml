@@ -1,0 +1,10 @@
+artifact_location: file:///D:/VS%20Code%20Projects/Bike-rental-count-prediction/mlruns/366612654638001921/models/m-23fb801256084962ba32347d22eac150/artifacts
+creation_timestamp: 1774655334382
+experiment_id: '366612654638001921'
+last_updated_timestamp: 1774655337720
+model_id: m-23fb801256084962ba32347d22eac150
+model_type: null
+name: best_xgb_model
+source_run_id: 7c60c19522f041d599bd011cacfda38b
+status: 2
+status_message: null
