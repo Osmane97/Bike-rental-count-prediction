@@ -5,8 +5,7 @@ import pandas as pd
 # ----------------------------
 # Config
 # ----------------------------
-API_URL = "http://bike-app-alb-765107221.eu-west-2.elb.amazonaws.com/api/predict"
-
+API_URL = "http://127.0.0.1:8000/predict"
 
 st.title("🚲 Bike Rental Prediction")
 
