@@ -58,13 +58,15 @@ jobs:
       - name: Deploy bike-api-service
         run: |
           aws ecs update-service \
-            --cluster bike-cluster \
-            --service bike-api-service \
-            --force-new-deployment
+            --cluster bike-rental-cluster \
+            --service bike-api-service-service-djybpf67 \
+            --force-new-deployment \
+            --region eu-west-2
 
       - name: Deploy bike-streamlit-service
         run: |
           aws ecs update-service \
-            --cluster bike-cluster \
-            --service bike-streamlit-service \
-            --force-new-deployment
+            --cluster bike-rental-cluster \
+            --service bike-rental-streamlit \
+            --force-new-deployment \
+            --region eu-west-2
