@@ -26,4 +26,5 @@ ENV PYTHONPATH=/app
 EXPOSE 8000
 
 # Run FastAPI using module syntax
-CMD ["python", "-m", "src.api.main"]
+# Use Uvicorn to run FastAPI persistently
+CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
