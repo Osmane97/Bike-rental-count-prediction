@@ -5,7 +5,9 @@ import pandas as pd
 # ----------------------------
 # Config
 # ----------------------------
-API_URL = "http://127.0.0.1:8000/predict"
+import os
+
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/predict")
 
 st.title("🚲 Bike Rental Prediction")
 
