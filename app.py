@@ -7,9 +7,7 @@ import pandas as pd
 # ----------------------------
 import os
 
-
-API_URL = os.getenv("API_URL", "http://bike-app-alb-765107221.eu-west-2.elb.amazonaws.com/api/predict")
-
+API_URL = os.getenv("API_URL", "http://bike-api-task-80-tcp.bika-local.app:8000/predict")
 st.title("🚲 Bike Rental Prediction")
 
 st.write("Enter features and get predicted number of rentals")
