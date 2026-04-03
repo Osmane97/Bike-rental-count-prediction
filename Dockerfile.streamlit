@@ -25,8 +25,7 @@ ENV API_URL=http://backend:8000/predict
 
 EXPOSE 8501
 
-ENTRYPOINT ["streamlit", "run", "app.py"]
-CMD ["--server.port=8501", "--server.address=0.0.0.0", "--server.baseUrlPath=/dashboard"]
+ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.baseUrlPath=/dashboard"]
 
 
 # FastAPI container: lightweight, only needs Python + Uvicorn + your code.
